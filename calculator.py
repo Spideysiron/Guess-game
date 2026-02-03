@@ -5,10 +5,10 @@ oper = input("Choose operation (+,-,*,/): ").strip()
  
  #addition
 if ( oper=="+" ):
-    print(f"Addition : {num1 + num2}")
+    print(f"Result : {num1 + num2}")
 
 elif ( oper=="-" ):
-    print(f"Substraction : {num1 - num2}")
+    print(f"Result : {num1 - num2}")
 
 elif ( oper=="*" ):
     print(f"Multiplication : {num1*num2}")
