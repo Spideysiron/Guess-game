@@ -3,7 +3,7 @@ from random import randint
 def guess():
     comp_num = randint(1,100)
     guesses = 0
-    while guesses < 5:   
+    while guesses < 8:   
         user_num = input("Guess the number(1-100) : ")
         if user_num.isdigit():
             user = int(user_num)
